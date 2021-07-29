@@ -65,3 +65,8 @@ You can write into registers using the following :
 ```
 wr rip 0x01
 ```
+You can rename a variable using the following :
+```
+afvn previous_name new_name
+```
+NB : the "previous_name" is what follows the dash in the display ```rbp-variable_name```
